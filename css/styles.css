@@ -1,10 +1,14 @@
   .hero-image {
     background-image: url("../images/misc/strip_sm.jpg");
-    background-repeat: space;
+    background-repeat: space;    
   }
 
   .brand {
       color:white;
+  }
+
+  .spacer_above {
+    padding-top:2rem;
   }
 
   .fixedfooter {
@@ -15,3 +19,38 @@
     width:100%;
     background:#343a40;
  }
+
+ .img_container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.img_item {
+  display:block;
+  flex-basis: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: silver;
+}
+/* three images per line when browser width exceeds 960px */
+@media only screen and (min-width: 960px) {
+  .img_item {
+    flex-basis: 33.333%;
+  }
+}
+ 
+/* four images per line when browser width exceeds 1280px */
+@media only screen and (min-width: 1280px) {
+  .img_item {
+    flex-basis: 25%;
+  }
+}
+ 
+/* five images per line when browser width exceeds 1600px */
+@media only screen and (min-width: 1600px) {
+  .img_item {
+    flex-basis: 20%;
+  }
+}

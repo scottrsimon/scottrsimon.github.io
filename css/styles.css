@@ -1,11 +1,17 @@
- .hero-image {
-
-    padding-bottom: 4rem;
-    background-image: url("../images/misc/strip.jpg");
+  .hero-image {
+    background-image: url("../images/misc/strip_sm.jpg");
     background-repeat: space;
-    
   }
 
   .brand {
       color:white;
   }
+
+  .fixedfooter {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:20px;
+    width:100%;
+    background:#343a40;
+ }

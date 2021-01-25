@@ -2,10 +2,23 @@ body {
   font: 400 15px/1.8 Lato, sans-serif;
   color: #777;
 }
+
 .carousel-inner img {
   margin: auto;
 }
 
+.btn {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #f1f1f1;
+  border-radius: 0;
+  transition: .2s;
+}
+.btn:hover, .btn:focus {
+  border: 1px solid #333;
+  background-color: #fff;
+  color: #000;
+}
   .hero-image {
     background-image: url("../images/misc/strip_sm.jpg");
     background-repeat: space;    

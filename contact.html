@@ -44,21 +44,21 @@
 
 
 <div class="container">
-  
   <h2>Contact</h2>
-
+  
   <div class="tab-content" id="myTabContent">
-
 
   <nav>
     <div class="nav nav-tabs" id="nav-tab" role="tablist">
       <a class="nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">General</a>
-      <a class="nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Model</a>
-      
+      <a class="nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Model</a>      
     </div>
   </nav>
   <div class="tab-content" id="nav-tabContent">
-    <br>
+    <div>
+      &nbsp;
+    </div>
+    
     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
       <div class="row">
         <div class="col-md-4">
@@ -68,26 +68,32 @@
           <p><span class="glyphicon glyphicon-envelope"></span>Email: scott.r.simon.819@gmail.com</p>
         </div>
         <div class="col-md-8">
+          <form action="https://formspree.io/f/moqprrjd" method="POST">
           <div class="row">
+            
             <div class="col-sm-6 form-group">
               <input class="form-control" id="name" name="name" placeholder="Name" type="text" required="">
             </div>
             <div class="col-sm-6 form-group">
-              <input class="form-control" id="email" name="email" placeholder="Email" type="email" required="">
+              <input class="form-control" id="email" name="_replyto" placeholder="Email" type="email" required="required">
             </div>
           </div>
           <textarea class="form-control" id="comments" name="comments" placeholder="General Comment" rows="5"></textarea>
+          <input type="hidden" id="custId" name="custId" value="General">
           <br>
           <div class="row">
             <div class="col-md-12 form-group">
-              <button class="btn pull-right" type="submit">Send General Inquiry</button>
+              <button class="btn pull-right" type="submit" value="Send">Send General Inquiry</button>
+              
+              
             </div>
           </div>
+        </form>
         </div>
       </div> 
     </div>
     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-     
+      <form action="https://formspree.io/f/moqprrjd" method="POST">
       <div class="row">
         <div class="col-md-4">
           <h3>Looking to Model?</h3>
@@ -101,10 +107,11 @@
               <input class="form-control" id="name" name="name" placeholder="Name" type="text" required="">
             </div>
             <div class="col-sm-6 form-group">
-              <input class="form-control" id="email" name="email" placeholder="Email" type="email" required="">
+              <input class="form-control" id="email" name="email" placeholder="Email" type="email" required="required">
             </div>
           </div>
           <textarea class="form-control" id="comments" name="comments" placeholder="Model Inquiries" rows="5"></textarea>
+          <input type="hidden" id="custId" name="custId" value="Model">
           <br>
           <div class="row">
             <div class="col-md-12 form-group">
@@ -113,8 +120,9 @@
           </div>
         </div>
       </div> 
+    </form>
     </div>
-    
+  
   </div>
    
   

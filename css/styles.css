@@ -3,6 +3,23 @@ body {
   color: #777;
 }
 
+a.nav-link:link
+{
+   color: #fb3f00;
+   text-decoration: none;
+}
+a.nav-link:visited
+{
+   color: #fb3f00;
+   text-decoration: none;
+}
+a.nav-link:hover
+{
+   color: #fb3f00;
+   text-decoration: none;
+}
+
+
 .carousel-inner img {
   margin: auto;
 }
@@ -18,6 +35,15 @@ body {
   border: 1px solid #333;
   background-color: #fff;
   color: #000;
+}
+
+.nav-item > a:hover {
+  color : #007bff!important;
+}
+
+.nav-item.active  {
+  
+  background-color:#343a40;
 }
   .hero-image {
     background-image: url("../images/misc/strip_sm.jpg");

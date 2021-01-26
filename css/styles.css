@@ -15,7 +15,7 @@ a.nav-link:visited
 }
 a.nav-link:hover
 {
-   color: #fb3f00;
+   color: #271610;
    text-decoration: none;
 }
 
@@ -38,7 +38,7 @@ a.nav-link:hover
 }
 
 .nav-item > a:hover {
-  color : #007bff!important;
+  color : #fb3f00!important;
 }
 
 .nav-item.active  {
@@ -58,6 +58,13 @@ a.nav-link:hover
     padding-top:2rem;
   }
 
+  .hrule_above{
+    border-top: solid 2px black;
+  }
+
+  .hrule_below {
+    border-bottom: solid 2px black;
+  }
   .fixedfooter {
     position:fixed;
     left:0px;
@@ -87,7 +94,7 @@ footer {
 }
 .img_item {
   display:block;
-  flex-basis: 100%;
+  flex-basis: 50%;
   padding: 10px;
   box-sizing: border-box;
   box-shadow: silver;
@@ -117,8 +124,33 @@ footer {
   width: 100%;
 }
 
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+ 
+ 
+}
+
+.flex-item-image {  
+  padding: 10px;
+  flex: 50%;
+  text-align: center;
+}
+
+.flex-item-text {  
+  padding: 10px;
+  flex: 50%;
+}
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 760px) {
+  .flex-item-image, .flex-item-text {
+    flex: 100%;
+  }
+}
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 760px) {
   .imgcolumn {    
     flex: 50%;
     max-width: 50%;

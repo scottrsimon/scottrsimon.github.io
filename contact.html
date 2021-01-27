@@ -43,91 +43,42 @@
 </nav>
 
 
-<div class="container">
-  <h2>Contact</h2>
+<div class="container spacer_above">
   
-  <div class="tab-content" id="myTabContent">
-
-  <nav>
-    <div class="nav nav-tabs" id="nav-tab" role="tablist">
-      <a class="nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">General</a>
-      <a class="nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Model</a>      
+  
+  <div class="row">
+    <div class="col-md-4">
+      <h3>Home Location:</h3>
+      <p><span class="glyphicon glyphicon-map-marker"></span>Chicago, US</p>
+      <p><span class="glyphicon glyphicon-phone"></span>Phone: 123-456-7890</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>Email: scott.r.simon.819@gmail.com</p>
     </div>
-  </nav>
-  <div class="tab-content" id="nav-tabContent">
-    <div>
-      &nbsp;
-    </div>
-    
-    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-      <div class="row">
-        <div class="col-md-4">
-          <h3>Home Location:</h3>
-          <p><span class="glyphicon glyphicon-map-marker"></span>Chicago, US</p>
-          <p><span class="glyphicon glyphicon-phone"></span>Phone: 123-456-7890</p>
-          <p><span class="glyphicon glyphicon-envelope"></span>Email: scott.r.simon.819@gmail.com</p>
-        </div>
-        <div class="col-md-8">
-          <form action="https://formspree.io/f/moqprrjd" method="POST">
-          <div class="row">
-            
-            <div class="col-sm-6 form-group">
-              <input class="form-control" id="name" name="name" placeholder="Name" type="text" required="">
-            </div>
-            <div class="col-sm-6 form-group">
-              <input class="form-control" id="email" name="_replyto" placeholder="Email" type="email" required="required">
-            </div>
-          </div>
-          <textarea class="form-control" id="comments" name="comments" placeholder="General Comment" rows="5"></textarea>
-          <input type="hidden" id="custId" name="custId" value="General">
-          <br>
-          <div class="row">
-            <div class="col-md-12 form-group">
-              <button class="btn pull-right" type="submit" value="Send">Send General Inquiry</button>
-              
-              
-            </div>
-          </div>
-        </form>
-        </div>
-      </div> 
-    </div>
-    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+    <div class="col-md-8">
       <form action="https://formspree.io/f/moqprrjd" method="POST">
       <div class="row">
-        <div class="col-md-4">
-          <h3>Looking to Model?</h3>
-          <p><span class="glyphicon glyphicon-map-marker"></span>Portrait Rates: $xx.xx</p>
-          <p><span class="glyphicon glyphicon-phone"></span>Group Rates: $xx.xx</p>
-          <p><span class="glyphicon glyphicon-envelope"></span>Email: scott.r.simon.819@gmail.com</p>
+        
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required="">
         </div>
-        <div class="col-md-8">
-          <div class="row">
-            <div class="col-sm-6 form-group">
-              <input class="form-control" id="name" name="name" placeholder="Name" type="text" required="">
-            </div>
-            <div class="col-sm-6 form-group">
-              <input class="form-control" id="email" name="email" placeholder="Email" type="email" required="required">
-            </div>
-          </div>
-          <textarea class="form-control" id="comments" name="comments" placeholder="Model Inquiries" rows="5"></textarea>
-          <input type="hidden" id="custId" name="custId" value="Model">
-          <br>
-          <div class="row">
-            <div class="col-md-12 form-group">
-              <button class="btn pull-right" type="submit">Send Model Inquiry</button>
-            </div>
-          </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="_replyto" placeholder="Email" type="email" required="required">
         </div>
-      </div> 
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="General Comment" rows="5" required="required"></textarea>
+      <input type="hidden" id="custId" name="custId" value="General">
+      <br>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <button class="btn pull-right" type="submit" value="Send">Send General Inquiry</button>
+          
+          
+        </div>
+      </div>
     </form>
     </div>
+  </div> 
+
   
-  </div>
-   
-  
-  
-   
 
 
 </div>

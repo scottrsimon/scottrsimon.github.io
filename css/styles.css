@@ -64,6 +64,7 @@ a.xnav-tabs {
 
   .brand {
       color:white;
+      padding-right: 5px;
   }
   .brand:hover {
     color:grey;
@@ -75,6 +76,12 @@ a.xnav-tabs {
 
   .spacer_above_sm {
     padding-top:1rem;
+  }
+  .spacer_below_sm {
+    padding-bottom:1rem;
+  }
+  .icon_spacer {
+    padding:0px 6px 0px 2px;
   }
   .hrule_above{
     border-top: solid 2px black;
@@ -94,7 +101,7 @@ a.xnav-tabs {
 footer {
     background-color: #343a40;
     color: #f5f5f5;
-    padding: 25px 0px;
+    padding: 5px 0px 0px 0px;
   }
   footer a {
     color: #f5f5f5;
@@ -104,7 +111,7 @@ footer {
     text-decoration: none;
   }  
   #lab_social_icon_footer {
-    padding: 10px 0;
+    padding: 20px 0;
     background-color: #dedede;
   }
   
@@ -147,6 +154,10 @@ footer {
   #lab_social_icon_footer #social-em:hover {
     color: #f39c12;
   }
+
+  .form-control.force {
+    border-color: #dc3545;    
+}
 
  .img_container {
   display: flex;

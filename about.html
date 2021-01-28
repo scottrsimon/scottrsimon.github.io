@@ -58,7 +58,9 @@
         <p>I started taking pictures with a camera my grandfather gave me as a present for my 5th birthday.</p>
         <p>It was one of the best gifts I have ever received: a gift that keeps on giving!</p>              
         <div class="white-button">
-          <a href="#">Read More</a>
+          <a href="#" id="early">Read More</a>
+          <!-- Trigger/Open The Modal -->
+          
         </div>
       </div>
     </div>  
@@ -68,7 +70,7 @@
         <p>My favorite kind of picture is developed the old fashioned way: Silver print using black and white film;  There is no other experience like it!</p>
         
         <div class="white-button">
-          <a href="#">Read More</a>
+          <a href="#" id="perspective">Read More</a>
         </div>
       </div>
       <div class="flex-item-image"><img src="https://i.ibb.co/PN3vZpd/3.jpg" alt="" /></div>
@@ -82,6 +84,60 @@
 
 </div>
 <!--container-->
+<div class="container">
+ <!-- The Modal -->
+ <div class="modal" id="earlyModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+    
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Early Exposure</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      
+      <!-- Modal body -->
+      <div class="modal-body">
+        I even built my own darkroom in my basement!
+      </div>
+      
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <!-- The Modal -->
+  <div class="modal" id="perspectiveModal">
+   <div class="modal-dialog">
+     <div class="modal-content">
+     
+       <!-- Modal Header -->
+       <div class="modal-header">
+         <h4 class="modal-title">Perspective</h4>
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+       </div>
+       
+       <!-- Modal body -->
+       <div class="modal-body">
+         After purchasing a DSLR, I got lazy and stopped taking photos!
+       </div>
+       
+       <!-- Modal footer -->
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+       </div>
+       
+     </div>
+   </div>
+ </div>
+</div>
+
+
 <div class = "spacer_above"></div>
 <footer class="text-center">
   <div>
@@ -107,5 +163,20 @@
   </div>
 </footer>
 <a id="back2Top" title="Back to top" href="#">&#10148;</a>
+
+
+
+<script>
+$(document).ready(function(){
+  $("#early").click(function(){
+    $("#earlyModal").modal();
+  });
+  $("#perspective").click(function(){
+    $("#perspectiveModal").modal();
+  });
+});
+</script>
+
 </body>
 </html>
+

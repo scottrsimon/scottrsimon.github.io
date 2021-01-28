@@ -89,9 +89,7 @@ a.xnav-tabs {
         cursor: default;
         transform: scale(1.1);
         -webkit-transform: scale(1.1);
-        .card-image {
-          opacity: 1;
-        }
+        opacity: 1.0;            
       }
     
   
@@ -119,7 +117,13 @@ a.xnav-tabs {
       background-position: center;
       background-repeat: no-repeat;
       border-radius: 6px 6px 0px 0px;
-      opacity: 0.91;
+      opacity: 0.2;
+    }
+
+    .card-image:hover{
+      transition: opacity 1s;
+  -webkit-transition: opacity 1s;
+      opacity: 1.0;
     }
   
 

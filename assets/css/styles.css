@@ -116,7 +116,7 @@ footer {
   }
   
   #lab_social_icon_footer a {
-    color: #333;
+    color: #343a40;
   }
   
   #lab_social_icon_footer .social:hover {
@@ -140,11 +140,18 @@ footer {
   */
   
   #lab_social_icon_footer #social-fb:hover {
-    color: #3B5998;
+    color: #4267B2;
+  }
+
+  #lab_social_icon_footer #social-git:hover {
+    color: #000;
+  }
+  #lab_social_icon_footer #social-li:hover {
+    color: #0A66C2;
   }
   
   #lab_social_icon_footer #social-tw:hover {
-    color: #4099FF;
+    color: #1DA1F2;
   }
   
   #lab_social_icon_footer #social-gp:hover {
@@ -152,7 +159,7 @@ footer {
   }
   
   #lab_social_icon_footer #social-em:hover {
-    color: #f39c12;
+    color: #d34836;
   }
 
   .form-control.force {

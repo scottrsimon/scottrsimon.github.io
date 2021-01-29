@@ -10,7 +10,9 @@ This is a website which showcases an amateur photographer's work
 
 The page content consists of:
 ![html](https://i.ibb.co/VSKSk6y/html5.png) hypertext markup language (html)
+
 ![css](https://i.ibb.co/gPGLZJB/css3.jpg) cascading style sheets (css)
+
 ![js](https://i.ibb.co/7y74Nvg/js.jpg) javascript (js)
 
 ## Web Elements

@@ -1,5 +1,6 @@
 body {
-  font: 400 15px/1.8 Lato, sans-serif;
+  /*font: 400 15px/1.8 Lato, sans-serif;*/
+  font-family: 'Roboto Condensed', sans-serif;
   color: #777;
   background-color: #dedede;
 }
@@ -337,8 +338,6 @@ footer a:hover {
   padding: 10px;
   flex: 50%;
 }
-
-
 
 /* Responsive layout - makes a one column-layout instead of a two-column layout */
 @media (max-width: 760px) {

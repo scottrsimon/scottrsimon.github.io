@@ -28,7 +28,7 @@ This is a website which showcases an amateur photographer's work
 * Contact Form
 * Social Media icons
 
-### Future Improvement
+### Future Improvements
 
 1. Will be converting more of my photographs to digital format to add to the Gallery section of the site.
 2. Will eventually obtain dedicated hosting space to upload this page and maintain it full time.

@@ -33,3 +33,4 @@ This is a website which showcases an amateur photographer's work
 1. Will be converting more of my photographs to digital format to add to the Gallery section of the site.
 2. Will eventually obtain dedicated hosting space to upload this page and maintain it full time.
 3. Will learn how to create a user authentication section where other amateur photographers might be able to upload their own images and showcase their work.
+4. Will provide a market place for purchasing the original artwork showcased on the site.

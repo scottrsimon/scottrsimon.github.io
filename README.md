@@ -1,6 +1,6 @@
-# Project_1: Personal Portfolio
+# Scott Simon's Personal Portfolio
 
-Created by ##**Scott Simon**
+Project_1
 
 # Overview
 
@@ -9,9 +9,9 @@ This is a website which showcases an amateur photographer's work
 ## HTML, CSS, JS
 
 The page content consists of:
-* ![html](https://i.ibb.co/VSKSk6y/html5.png) hypertext markup language
-* ![css](https://i.ibb.co/gPGLZJB/css3.jpg) cascading style sheets
-* ![js](https://i.ibb.co/7y74Nvg/js.jpg) javascript
+![html](https://i.ibb.co/VSKSk6y/html5.png) hypertext markup language (html)
+![css](https://i.ibb.co/gPGLZJB/css3.jpg) cascading style sheets (css)
+![js](https://i.ibb.co/7y74Nvg/js.jpg) javascript (js)
 
 ## Web Elements
 

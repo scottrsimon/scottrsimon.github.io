@@ -6,7 +6,7 @@ Project_1
 
 This is a website which showcases an amateur photographer's work
 
-## HTML, CSS, JS
+## Technology Used
 
 The page content consists of:
 ![html](https://i.ibb.co/VSKSk6y/html5.png) hypertext markup language (html)
